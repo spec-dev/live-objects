@@ -1,8 +1,21 @@
+# Latest Interaction
+
+Represents the latest "interaction" between 2 addresses on ethereum. 
+Currently, only transactions are represented (traces will be included later),
+with each interaction categorized as either `wallet --> wallet` or `wallet --> contract`. 
+
+---
+
+**Namespace:** `eth`
+**Name:**  `LatestInteraction`
+**Version:**  `0.0.1`
+
+---
+
+## Interface
+
 ```typescript
-/**
- * Represents the latest "interaction" between 2 ethereum addresses.
- */
-export interface EthLatestInteraction {
+export interface LatestInteraction {
     // Address this transaction or trace was sent from.
     from: string
 
@@ -10,7 +23,7 @@ export interface EthLatestInteraction {
     to: string
 
     // Specifies whether the sender or recipient is a wallet or a contract.
-    interactionType: EthLatestInteractionType
+    interactionType: LatestInteractionType
 
     // The transaction or trace hash.
     hash: string
@@ -25,7 +38,7 @@ export interface EthLatestInteraction {
     blockNumber: number
 }
 
-export enum EthLatestInteractionType {
+export enum LatestInteractionType {
     WalletToContract = 'wallet:contract',
     WalletToWallet = 'wallet:wallet',
     ContractToWallet = 'contract:wallet',
