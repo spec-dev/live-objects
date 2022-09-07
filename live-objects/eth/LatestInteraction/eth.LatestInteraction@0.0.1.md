@@ -46,4 +46,4 @@ export enum LatestInteractionType {
 
 ## Associated Events
 
-[eth.NewInteractions@0.0.1](/events/eth/NewInteractions/eth.NewInteractions@0.0.1.md)
+[`eth.NewInteractions@0.0.1`](/events/eth/NewInteractions/eth.NewInteractions@0.0.1.md)
