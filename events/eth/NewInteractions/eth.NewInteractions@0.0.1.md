@@ -2,9 +2,9 @@
 
 Publishes the latest interactions between addresses for each new block.
 
-* **Namespace:**  `eth`<br>
-* **Name:**  `NewInteractions`<br>
-* **Version:**  `0.0.1`<br>
+**Namespace:**  `eth`<br>
+**Name:**  `NewInteractions`<br>
+**Version:**  `0.0.1`<br>
 
 ## Data
 

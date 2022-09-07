@@ -4,9 +4,9 @@ Represents the latest "interaction" between 2 addresses on ethereum.
 Currently, only transactions are represented (traces will be included later),
 with each interaction categorized as either `wallet --> wallet` or `wallet --> contract`. 
 
-* **Namespace:**  `eth`<br>
-* **Name:**  `LatestInteraction`<br>
-* **Version:**  `0.0.1`<br>
+**Namespace:**  `eth`<br>
+**Name:**  `LatestInteraction`<br>
+**Version:**  `0.0.1`<br>
 
 ## Interface
 
